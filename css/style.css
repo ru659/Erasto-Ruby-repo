@@ -3,8 +3,33 @@
   padding: 0;
   box-sizing: border-box;  
 }
+body{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
 #main-doc{
-    position: absolute;
+    position:absolute;
     padding: 20px;
     margin-left: 310px;
 }
+nav{
+
+    top:0;
+    left:0;
+    width:180px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    border-right:2px solid black ;
+}
+main{
+    display: block;
+}
+header{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+
